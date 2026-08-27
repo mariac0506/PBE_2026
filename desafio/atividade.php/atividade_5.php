@@ -8,4 +8,7 @@ echo "sunTotal: ".$resultado['subTotal']."<br>";
 echo "desconto: ".$resultado['valorDesconto']."<br>";
 echo "total: ".$resultado['totalFinal']."<br>";
 
+$totalComFrete = CalculoFrete($resultado['totalFinal']);
+echo "total com frete".$totalComFrete;
+
 ?>
